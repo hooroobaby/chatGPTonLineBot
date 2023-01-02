@@ -1,1 +1,1 @@
-web: gunicorn views.wsgi
+web: gunicorn LineBot.wsgi
