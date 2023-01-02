@@ -1,1 +1,1 @@
-web: gunicorn (hw)linebot.wsgi
+web: gunicorn mylinebot.wsgi
