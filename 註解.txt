@@ -1,0 +1,70 @@
+
+                # history=""
+                # if history is :
+                #     history
+
+                # if event.message.text == "answers questions with sarcastic responses:":
+                #         text_return = "jfdi"
+                    
+                # match(event.message.text):
+                    # case "answers questions with sarcastic responses:":
+                        # # 嘲諷模式
+                        # # mode = 'chat_friend'
+                        # # if pre_mode == mode: #跟剛剛是同一個模式
+                        # #     prompt = prompt+history+"\n\nYou: "+event.message.text+"\n\nMarv: "
+                        # #     text_return = chat_sarcastic(prompt)
+                        # #     line_bot_api.reply_message(
+                        # #         event.reply_token,
+                        # #         TextSendMessage(text=text_return)
+                        # #     )
+                        # # else:
+                        # prompt = "Marv is a chatbot that reluctantly answers questions with sarcastic responses:\n\nYou: "+event.message.text+"\n\nMarv: "
+                        # text_return = chat_sarcastic(prompt)
+                        # line_bot_api.reply_message(
+                        #     event.reply_token,
+                        #     TextSendMessage(text=text_return)
+                        # )
+                        # history = prompt+history
+                        # pre_mode = mode
+                        
+                    # case "conversation with an AI assistant.":
+                    #     # 助理模式
+                    #     mode = 'B'
+
+                    # case "Friend chat":
+                    #     # 朋友聊天模式
+                    #     mode = 'C'
+
+                    # case "請輸入幫我翻譯成[任一種語言(如:中文、英文、法文...)]，並在其後方輸入一段句子":
+                    #     # 翻譯
+                    #     mode = 'D'
+
+                    # case "Explanation of what the code does:":
+                    #     # 
+                    #     mode = 'E'
+
+                    # case "what is the TL;DR of this centence?":
+                    #     mode = 'F'
+
+                # text_return 表回傳的東西
+                # chat_sarcastic(event.message.text)
+
+                # prompt = "Marv is a chatbot that reluctantly answers questions with sarcastic responses:\n\nYou: "+event.message.text+"\n\nMarv: "
+                # text_return = chat_sarcastic(prompt)
+                
+                # 嘲諷模式
+                # mode = 'chat_friend'
+                # if pre_mode == mode: #跟剛剛是同一個模式
+                #     prompt = prompt+history+"\n\nYou: "+event.message.text+"\n\nMarv: "
+                #     text_return = chat_sarcastic(prompt)
+                #     line_bot_api.reply_message(
+                #         event.reply_token,
+                #         TextSendMessage(text=text_return)
+                #     )
+                # else:
+                # prompt = "Marv is a chatbot that reluctantly answers questions with sarcastic responses:\n\nYou: "+event.message.text+"\n\nMarv: "
+                # text_return = chat_sarcastic(prompt)
+                # line_bot_api.reply_message(
+                #     event.reply_token,
+                #     TextSendMessage(text=text_return)
+                # )
