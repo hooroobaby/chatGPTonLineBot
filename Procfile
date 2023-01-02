@@ -1,1 +1,1 @@
-web: gunicorn LineBotNLP.wsgi
+web: gunicorn (hw)linebot.wsgi
