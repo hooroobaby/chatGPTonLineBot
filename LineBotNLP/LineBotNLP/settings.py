@@ -20,19 +20,19 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-3vcao*1$i7y%32v36-!@5yse=00#l18e#-qr4j%8vtd)d8k#kp"
+SECRET_KEY = "your_secret_key"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 #LINE CHANNEL
-LINE_CHANNEL_ACCESS_TOKEN = '5tCZU9fA2rhV53iJKNZ93L2TamDkKE7BQ4mtQgWXu8Fuzvztb4NwVsEKfoPTePYBkljVEczA69NRAsASIlyJWlAaZOufFR3K5lRpqhV9tKPSeUlhGZkZWnMI4bzKQwMFv+7NwUTWC0QhMtv9+h2w6QdB04t89/1O/w1cDnyilFU='
-LINE_CHANNEL_SECRET = 'f5c1c5667cfb29c78a0bc2d3a92537a6'
+LINE_CHANNEL_ACCESS_TOKEN = 'LINE_CHANNEL_ACCESS_TOKEN'
+LINE_CHANNEL_SECRET = 'LINE_CHANNEL_SECRET'
 
 ALLOWED_HOSTS = ['9a51-140-119-120-6.jp.ngrok.io', 'chatgptlinebot.herokuapp.com']
 
 # CHATGPT_KEY
-CHATGPT_KEY = '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'
+CHATGPT_KEY = 'sk-CHATGPT_KEY'
 
 
 # Application definition
