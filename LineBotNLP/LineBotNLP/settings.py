@@ -75,8 +75,8 @@ TEMPLATES = [
     },
 ]
 
-# WSGI_APPLICATION = "LineBotNLP.wsgi.application"
-WSGI_APPLICATION = "chatgptlinebot.wsgi.application"
+WSGI_APPLICATION = "LineBotNLP.wsgi.application"
+
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
